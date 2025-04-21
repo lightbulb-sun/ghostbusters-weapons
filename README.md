@@ -13,6 +13,8 @@ by user
 * Firecracker icon (from *Bubble Projectile* weapon) → Bubble icon (from *Phaser Shell* weapon)
 * Flamethrower icon (from *Explosives* weapon) → Firecracker icon (from *Bubble Projectile* weapon)
 
+![ghostbusters-before-after](https://github.com/user-attachments/assets/6ebd593c-a275-4864-b5a9-da47698b4269)
+
 ## Download
 The latest release can be found on the
 [releases page](https://github.com/lightbulb-sun/ghostbusters-weapons/releases).
