@@ -12,9 +12,16 @@ ICON_BUBBLE_PROJECTILE   = $655c
 ICON_3_WAY_SHOT          = $6580
 ICON_EXPLOSIVES          = $654a
 
+SHOP_0_ENERGY_REGEN      = $0202d2
+SHOP_1_EXPLOSIVES        = $0202e6
+SHOP_2_BUBBLE_PROJECTILE = $0202fa
+SHOP_3_PHASER_SHELL      = $02030e
+SHOP_4_3_WAY_SHOT        = $020322
+
     org 0
     incbin "ghostbusters.md"
 
+    ; inventory
     org OFFSET_WEAPON_ICON + SLOT_1_PHASER_SHELL
             dw      ICON_EXPLOSIVES
 
@@ -22,4 +29,14 @@ ICON_EXPLOSIVES          = $654a
             dw      ICON_PHASER_SHELL
 
     org OFFSET_WEAPON_ICON + SLOT_4_EXPLOSIVES
+            dw      ICON_BUBBLE_PROJECTILE
+
+    ; shop
+    org SHOP_3_PHASER_SHELL
+            dw      ICON_EXPLOSIVES
+
+    org SHOP_2_BUBBLE_PROJECTILE
+            dw      ICON_PHASER_SHELL
+
+    org SHOP_1_EXPLOSIVES
             dw      ICON_BUBBLE_PROJECTILE
